@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: url("./fonts/PlayfairDisplay-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Ubuntu-Light";
+    src: url("./fonts/Ubuntu-Light.ttf");
+    font-style: normal;
+    font-weight: normal;
+}

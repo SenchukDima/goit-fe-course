@@ -1,0 +1,40 @@
+
+.font_first_element { 
+    font-family: "PlayfairDisplay",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+.font_first_element:hover {
+    color: #344165;
+}
+.font_other { 
+    font-family: "PlayfairDisplay",Arial,sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+.ubuntu {
+    font-family: "Ubuntu-Light", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4ad9e;
+}
+h2 {
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    font-size: 30px;
+    line-height: 36px;
+    color: #626262;
+}
+.basic_text {
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #626262;
+}
+button {
+    font-family: "PlayfairDisplay", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    color: #626262;
+}
