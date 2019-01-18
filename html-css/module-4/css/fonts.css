@@ -1,32 +1,32 @@
 @font-face {
     font-family: "Roboto-Black";
-    src: url("/goit-fe-course/html-css/module-3/fonts/Roboto-Black.ttf") format("truetype");
+    src: url("../fonts/Roboto-Black.ttf") format("truetype");
 }
 @font-face {
     font-family: "Roboto-Light";
-    src: url("/goit-fe-course/html-css/module-3/fonts/Roboto-Light.ttf") format("truetype");
+    src: url("../fonts/Roboto-Light.ttf") format("truetype");
 }
 @font-face {
     font-family: "OpenSans-Bold";
-    src: url("/goit-fe-course/html-css/module-3/fonts/OpenSans-Bold.ttf") format("truetype");
+    src: url("../fonts/OpenSans-Bold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "OpenSans-Light";
-    src: url("/goit-fe-course/html-css/module-3/fonts/OpenSans-Light.ttf") format("truetype");
+    src: url("../fonts/OpenSans-Light.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "OpenSans-Regular";
-    src: url("/goit-fe-course/html-css/module-3/fonts/OpenSans-Regular.ttf") format("truetype");
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "OpenSans-SemiBold";
-    src: url("/goit-fe-course/html-css/module-3/fonts/OpenSans-SemiBold.ttf") format("truetype");
+    src: url("../fonts/OpenSans-SemiBold.ttf") format("truetype");
     font-style: normal;
     font-weight: normal;
 }

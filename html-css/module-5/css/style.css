@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container {
+    padding: 40px 0 78px;
+    width: 1110px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.head-emblem {
+    margin: 0;
+    float: left;
+    text-transform: uppercase;
+    font-family: "Roboto-Light", Arial, sans-serif;
+    color: #555252;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.head-emblem::first-letter {
+    font-family: "Roboto-Black", Arial, sans-serif;
+    color: #1abc9c;
+}
+
+ul {
+    float: right;
+    margin: 6px 0 0 0;
+    text-align: center;
+}
+
+li {
+    float: left;
+    width: 90px;
+    list-style: none;
+}
+
+.navigation-link {
+    display: block;
+    padding: 2px;
+    font-family: "OpenSans-Bold", Arial, sans-serif;
+    outline: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    color: #0f0101;
+}
+
+.navigation-link:hover {
+    color: #1abc9c;
+}
+
+header {
+    position: relative;
+    height: 600px;
+    background: url(../img/slide4.png)  center center;
+    background-size: cover;
+    z-index: -2;
+}
+
+header::after {
+    position: absolute;
+    content: '';
+    background: rgba(0, 0, 0, 0.52);
+    width: 1519px;
+    height: 600px;
+    top: 0;
+    z-index: -1;
+}
+
+.slider-iner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.slider-text {
+    margin: auto 0;
+}
+
+.slider-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center,
+}
+
+.slider-title-main,.slider-title-secondary {
+    color: #fff;
+    padding: 8px 50px 8px 15px;
+    display: block;
+}
+
+.slider-title-main {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 5px;
+}
+
+.slider-title-secondary {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+/* .slider-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #fff;
+    overflow: hidden;
+    border: none;
+}
+
+.slider-btn-prev {
+    
+}
+
+.slider-btn-next {
+
+}
+
+.slider-btn::before {
+    content: '';
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    top: 50%;
+    left: 50%;
+}
+
+.slider-btn-prev::before {
+    background: url(../img/);
+    transform: translate(-55%, -50%);
+}
+
+.slider-btn-next::before {
+    background: url(../img/);
+    transform: translate(-45%, -50%);
+} */
+
+
+.asd {
+    height: 200px;
+} 
