@@ -32,8 +32,8 @@ header {
 
 ul {
   float: right;
-  margin: 6px 0 0 0;
-  padding: 0;
+  margin: 0;
+  padding: 6px 0;
   text-align: center;
 }
 
@@ -88,14 +88,6 @@ main {
   transform: translate(320px, 78px)
 } 
 
-.product-card-level {
-  margin-bottom: 32px;
-}
-
-.product-card-level-second {
-  margin-bottom: 100px;
-}
-
 .product-card-box {
   width: 255px;
   margin-right: 30px;
@@ -107,14 +99,14 @@ main {
 }
 
 .product-name {
-  width: 255px;
+  width: 241px;
   background-color: #323232;
-  bottom: 0;
+  padding-left: 14px;
 }
 
 .product-name-text,
 .cost-name-text {
-  padding: 6px 0 2px;
+  padding: 4px 0 4px;
   display: block;
   font-family: "Roboto-Black", Arial, sans-serif;
   font-size: 18px;
@@ -127,13 +119,12 @@ main {
 .product-name-text {
   margin: 0;
   float: left;
-  margin-left: 14px;
 }
 
  .cost-name-text {
   margin: 0;
   float: right;
-  padding: 6px 11px 2px 11px;
+  padding: 4px 11px 4px 11px;
   background-color: #8c8c8c; 
 } 
 
@@ -143,6 +134,14 @@ main {
 
 .product-card-box:hover .cost-name-text {
   background-color: #7fd9c7;
+}
+
+.product-card-level:first-of-type .product-card-box {
+  margin-bottom: 32px;
+}
+
+.product-card-level:last-of-type .product-card-box {
+  margin-bottom: 100px;
 }
 
 .news-headline {
