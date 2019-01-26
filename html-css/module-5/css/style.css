@@ -120,7 +120,8 @@ header::after {
     font-family: "Roboto-Black", Arial, sans-serif;
     font-size: 60px;
     line-height: 82px;
-    letter-spacing: -4px;
+    font-weight: 100;
+    letter-spacing: -1px;
 }
 
 .slider-title-secondary {
@@ -187,7 +188,7 @@ section {
     font-size: 48px;
     font-weight: 700;
     color: #515151;
-    letter-spacing: -2px; 
+    letter-spacing: -1px; 
 
   }
   
@@ -196,7 +197,7 @@ section {
     position: absolute;
     width: 164px;
     border-bottom: 7px solid #1abc9c;
-    transform: translate(126px, 78px)
+    transform: translate(110px, 78px)
   } 
   .product-card-box {
     width: 255px;
@@ -298,7 +299,7 @@ section {
 
   .product-hover-submenu-text {
     text-transform: uppercase;
-    font-family: "OpenSans-Bold", Arial, sans-serif;
+    font-family: "OpenSans-Regular", Arial, sans-serif;
     font-size: 14px;
     line-height: 32px;
     color: #fff;
@@ -330,6 +331,8 @@ section {
       text-align: center;
   }
 
-  span {
+ .author {
       color: #46bfa9;
+      text-decoration: none;
   }
+
