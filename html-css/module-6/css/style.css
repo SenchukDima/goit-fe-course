@@ -180,6 +180,9 @@ li {
 
 
 .team-box:hover .team-box-img {
+    transition-property: transform;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
     transform: translate(-10px, -10px);
 }
 
@@ -224,6 +227,9 @@ li {
 }
 
 .team-back-links:hover {
+    transition-property: background-color;
+    transition-duration: 200ms;
+    transition-timing-function: linear;
     background-color: #95e1d3;
 }
 
