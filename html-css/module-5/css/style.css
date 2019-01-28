@@ -68,34 +68,33 @@ li {
     color: #1abc9c;
 }
 
+
+
 header {
-    position: relative;
-    height: 600px;
     background: url(../img/Background.jpg)  center center;
     background-size: cover;
     z-index: -2;
 }
 
-header::after {
-    position: absolute;
+.shadow {
+    position: relative;
+}
+
+.slider-inner::after {
     content: '';
+    position: absolute;
     background: rgba(0, 0, 0, 0.52);
-    width: 1519px;
+    width: 100vw;
     height: 600px;
     top: 0;
-    z-index: -1;
+    right: 0;
+    z-index: 0;
 }
 
 .slider {
     padding: 200px 0 265px;
     position: relative;
     margin: 0 auto;
-}
-
-.slider-iner {
-    display: flex;
-    flex-direction: column;
-    position: relative;
 }
 
 .slider-text {
@@ -136,8 +135,12 @@ header::after {
     width: 104px;
     height: 104px;
     background: rgba(28, 188, 156, 0.65);
-    overflow: hidden;
     border: none;
+    cursor: pointer;
+}
+
+.slider-btn:hover {
+    background: rgba(28, 188, 156, 1);
 }
 
 .slider-btn-prev {
@@ -160,14 +163,15 @@ header::after {
 }
 
 .slider-btn-prev::before {
-    background: url(../img/btn-1.png);
+    background: url(../img/icons/btn-1.png);
     transform: translate(-55%, -50%);
 }
 
 .slider-btn-next::before {
-    background: url(../img/btn-2.png);
+    background: url(../img/icons/btn-2.png);
     transform: translate(-45%, -50%);
 } 
+
 main {
     width: 100%;
     background-color: #e9f0fd;
@@ -270,13 +274,13 @@ section {
   .product-hover-submenu-hearth {
     top: 25%;
     left: 15%;
-    padding: 12px 10px;
+    padding: 7px 7px;
   }
   
   .product-hover-submenu-arrows {
     top: 25%;
     left: 40%;
-    padding: 14px 11px;
+    padding: 8px 8px;
     border: none;
     background-color: #1abc9c;
   }
@@ -284,18 +288,23 @@ section {
   .product-hover-submenu-clock {
     top: 25%;
     left: 64%;
-    padding: 11px 10px 11px 10px;
+    padding: 7px 7px;
   }
 
   .product-hover-submenu-basket {
     top: 46%;
     left: 15%;
-    width: 163px;
-    background-color:#323232;
+    width: 153px;
+    background-color:#323232;;
     text-decoration: none;
-    padding: 8px 0;
     text-align: center;
+    padding: 10px 0 10px 8px;
   }
+
+.icon-cart {
+    float: left;
+}
+
 
   .product-hover-submenu-text {
     text-transform: uppercase;
@@ -310,7 +319,6 @@ section {
       float: left;
       padding-left: 12px;
   }
-
 
   .product-card-box:hover .product-hover-menu {
       display: block;
@@ -336,3 +344,7 @@ section {
       text-decoration: none;
   }
 
+  .icon {
+      fill: #fff;
+  }
+  

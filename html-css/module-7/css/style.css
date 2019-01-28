@@ -4,32 +4,32 @@ body {
 
 .container {
     margin: 0 auto;
-    width: 1200px;
+    width: 940px;
 }
 
 nav {
-    margin: 25px auto;
+    margin: 38px  auto 100px auto;
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .head-emblem {
     margin: 0;
-    font-family: "Montserrat-Bold", Arial, sans-serif;
-    color: #95e1d3;
-    font-size: 30px;
-    line-height: 36px;
+    font-family: "Wisdom", Arial, sans-serif;
+    color: #feda5b;
+    font-size: 26px;
+    line-height: 41px;
     font-weight: 100;
 }
 
 ul {
     display: flex;
-    margin: 0 0 100px 0;
+    margin: 0;
     padding: 0;
     text-align: center;
-    align-items: flex-end;
     justify-content: space-between;
-    width: 510px;
+    width: 480px;
 }
 
 li {
@@ -39,16 +39,141 @@ li {
 .navigation-link {
     position: relative;
     display: block;
-    padding: 0 0 12px 4px;
+    padding: 0;
     font-family: "Montserrat-Regular", Arial, sans-serif;
     outline: none;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
+    line-height: 41px;
     font-weight: 100;
-    color: #1abc9c;
+    color: #222222;
+    font-weight: 600;
 }
 
 .navigation-link:hover {
-    color: #f38181;
+    color: #feda5b;
+}
+
+.headline, .headline-text, .services-headline, .services-text {
+text-align: center;
+margin: 0;
+}
+
+.headline {
+    text-transform: uppercase;
+    font-family: "Montserrat-Bold", Arial, sans-serif;
+    font-size: 40px;
+    line-height: 76px;
+}
+
+.services-headline {
+    color: #222222;
+}
+
+.headline-text {
+    font-family: "DroidSerif-Italic", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 70px;
+}
+
+.services-headline-text {
+    color: #777777;
+}
+
+.services-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 290px;
+}
+
+.services-icon {
+    margin-bottom: 14px;
+}
+
+.services-box-headline {
+    margin: 0;
+    font-family: "Montserrat-Bold", Arial, sans-serif;
+    font-size: 18px;
+    line-height: 38px;
+    color: #222222;
+}
+
+.services-text {
+    font-family: "RobotoSlab-Regular", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #777777;
+    margin-bottom: 120px;
+}
+
+.black {
+    background-color: #222222;
+}
+
+.contacts-headline {
+    color: #ffffff;
+}
+
+.contacts-headline-text {
+    color: #777777;
+}
+
+
+.forms {
+    display: flex;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-style {
+    text-transform: uppercase;
+    font-family: "Montserrat-Bold", Arial, sans-serif;
+    font-size: 14px;
+    
+}
+
+input {
+    color: #000000;
+}
+
+form [type= "text"], form [type= "email"] {
+    width: 416px;
+    padding: 18px 20px 18px 20px;
+    margin: 0 30px 26px 0;
+    border: 1px solid #a4a4a4;
+    border-radius: 3px;
+}
+
+form [type= "submit"] {
+   margin: 0 auto;
+   width: 240px;
+   padding: 14px 0;
+   background-color: #fed136;
+   border: 1px solid #fed136;
+   border-radius: 3px;
+   font-family: "Montserrat-Bold", Arial, sans-serif;
+   color: #fff;
+   text-transform: uppercase;
+   font-size: 14px;
+   cursor: pointer;
+   margin-bottom: 110px;
+}
+
+textarea {
+    display: block;
+    padding: 18px 16px;
+    border: 1px solid #a4a4a4;
+    border-radius: 3px;
+    text-decoration: none;
 }
