@@ -78,18 +78,20 @@
           </p>
 <div class="forms">
           <form class="form" action="#" method="get">
-            <input class="text-style" type="text" name="Name"  placeholder="your name" />
-            <input
+            <input required class="text-style" type="text" name="Name" id="inputs-required"  placeholder="your name" />
+            <input required
             class="text-style"
               type="email"
               name="Email"
-              id="inputs"
+              id="inputs-required"
               placeholder="your e-mail"
             />
             <input class="text-style" type="text" name="subject"  placeholder="subject" /></form>
             <form class="form" action="#" method="get">
             <textarea
+            required
             class="text-style"
+            id="inputs-required"
               name="message"
               rows="11"
               cols="50"
@@ -97,7 +99,7 @@
             ></textarea>
           </form>
         </div>
-        <form class="form" action="#" method="get">
+        <form class="form" action="#" method="">
         <input type="submit" value="send mesage" id="subscribe_input" />
         </form>
       </div>

@@ -143,13 +143,10 @@ margin: 0;
     
 }
 
-input {
-    color: #000000;
-}
 
 form [type= "text"], form [type= "email"] {
     width: 416px;
-    padding: 18px 20px 18px 20px;
+    padding: 19px 20px;
     margin: 0 30px 26px 0;
     border: 1px solid #a4a4a4;
     border-radius: 3px;
@@ -176,4 +173,12 @@ textarea {
     border: 1px solid #a4a4a4;
     border-radius: 3px;
     text-decoration: none;
+}
+
+#inputs-required:valid {
+    outline: 2px solid green;
+}
+
+#inputs-required:invalid {
+    outline: 2px solid red;
 }
