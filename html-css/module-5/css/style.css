@@ -255,11 +255,12 @@ section {
   .product-hover-menu {
     display: none;
     position: absolute;
-    border: 10px solid rgba( 255, 255, 255, 0.55);
     background-color: rgba(0, 0, 0, 0.55); 
+    outline: 10px solid rgba(255, 255, 255, 0.55);
     width: 235px;
-    height: 262px;
-    top: 0;
+    height: 263px;
+    top: 10px;
+    left: 10px;
   }
 
   .product-hover-submenu-object {
@@ -279,9 +280,8 @@ section {
   .product-hover-submenu-arrows {
     top: 25%;
     left: 40%;
-    padding: 8px 8px;
-    border: none;
-    background-color: #1abc9c;
+    padding: 7px 7px;
+    border: 1px solid #fff;
   }
 
   .product-hover-submenu-clock {
@@ -292,7 +292,7 @@ section {
     top: 46%;
     left: 15%;
     width: 153px;
-    background-color:#323232;;
+    background-color:#323232;
     text-decoration: none;
     text-align: center;
     padding: 10px 0 10px 8px;
@@ -321,6 +321,10 @@ section {
       display: block;
   }
 
+  .product-hover-submenu-object:hover {
+      background-color: #1abc9c;
+      border: 1px solid #1abc9c;
+  }
 
   footer {
       background-color: #323232;
@@ -329,7 +333,7 @@ section {
   .footer__text {
       margin: 0;
       padding: 32px 0;
-      color: #fff;
+      color: #fefefe;
       font-family: "OpenSans-Regular", Arial, sans-serif;
       font-size: 16px;
       line-height: 28px;
@@ -340,4 +344,3 @@ section {
       color: #46bfa9;
       text-decoration: none;
   } 
-  

@@ -1,184 +1,205 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 
 .container {
-    margin: 0 auto;
-    width: 940px;
+  margin: 0 auto;
+  width: 940px;
+}
+
+header {
+  padding: 38px 0 100px 0;
 }
 
 nav {
-    margin: 38px  auto 100px auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 }
 
 .head-emblem {
-    margin: 0;
-    font-family: "Wisdom", Arial, sans-serif;
-    color: #feda5b;
-    font-size: 26px;
-    line-height: 41px;
-    font-weight: 100;
+  margin: 0;
+  font-family: "Wisdom", Arial, sans-serif;
+  color: #feda5b;
+  font-size: 26px;
+  line-height: 41px;
+  font-weight: 100;
 }
 
 ul {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    justify-content: space-between;
-    width: 480px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: space-between;
+  width: 480px;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 .navigation-link {
-    position: relative;
-    display: block;
-    padding: 0;
-    font-family: "Montserrat-Regular", Arial, sans-serif;
-    outline: none;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
-    line-height: 41px;
-    font-weight: 100;
-    color: #222222;
-    font-weight: 600;
+  position: relative;
+  display: block;
+  padding: 0;
+  font-family: "Montserrat-Regular", Arial, sans-serif;
+  outline: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 41px;
+  font-weight: 100;
+  color: #222222;
+  font-weight: 600;
 }
 
 .navigation-link:hover {
-    color: #feda5b;
+  color: #feda5b;
 }
 
-.headline, .headline-text, .services-headline, .services-text {
-text-align: center;
-margin: 0;
+.headline,
+.headline-text,
+.services-headline,
+.services-text {
+  text-align: center;
+  margin: 0;
 }
 
 .headline {
-    text-transform: uppercase;
-    font-family: "Montserrat-Bold", Arial, sans-serif;
-    font-size: 40px;
-    line-height: 76px;
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold", Arial, sans-serif;
+  font-size: 40px;
+  line-height: 76px;
 }
 
 .services-headline {
-    color: #222222;
+  color: #222222;
 }
 
 .headline-text {
-    font-family: "DroidSerif-Italic", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 18px;
-    margin-bottom: 70px;
+  font-family: "DroidSerif-Italic", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
 }
 
 .services-headline-text {
-    color: #777777;
+  color: #777777;
+  margin-bottom: 70px;
 }
 
 .services-row {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 120px;
 }
 
 .services-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 290px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 290px;
 }
 
 .services-icon {
-    margin-bottom: 14px;
+  margin-bottom: 14px;
 }
 
 .services-box-headline {
-    margin: 0;
-    font-family: "Montserrat-Bold", Arial, sans-serif;
-    font-size: 18px;
-    line-height: 38px;
-    color: #222222;
+  margin: 0;
+  font-family: "Montserrat-Bold", Arial, sans-serif;
+  font-size: 18px;
+  line-height: 38px;
+  color: #222222;
 }
 
 .services-text {
-    font-family: "RobotoSlab-Regular", Arial, sans-serif;
-    font-size: 14px;
-    line-height: 22px;
-    color: #777777;
-    margin-bottom: 120px;
+  font-family: "RobotoSlab-Regular", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 22px;
+  color: #777777;
 }
 
 .black {
-    background-color: #222222;
+  background: url(../img/Map_Image.png) center center no-repeat;
+  background-color: #222222;
 }
 
 .contacts-headline {
-    color: #ffffff;
+  color: #ffffff;
+  padding-top: 86px;
 }
 
 .contacts-headline-text {
-    color: #777777;
-}
-
-
-.forms {
-    display: flex;
+  color: #777777;
+  margin-bottom: 77px;
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
+  padding-bottom: 110px;
+}
+
+.form-1 {
+  width: 455px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .text-style {
-    text-transform: uppercase;
-    font-family: "Montserrat-Bold", Arial, sans-serif;
-    font-size: 14px;
-    
+  width: 412px;
+  padding: 19px 20px;
+  margin: 0 0 26px 0;
+  border: 1px solid #a4a4a4;
+  border-radius: 3px;
+  font-family: "Montserrat-Bold", Arial, sans-serif;
+  font-size: 14px;
 }
 
-
-form [type= "text"], form [type= "email"] {
-    width: 416px;
-    padding: 19px 20px;
-    margin: 0 30px 26px 0;
-    border: 1px solid #a4a4a4;
-    border-radius: 3px;
+.text-style:last-child {
+  margin-bottom: 0;
 }
 
-form [type= "submit"] {
-   margin: 0 auto;
-   width: 240px;
-   padding: 14px 0;
-   background-color: #fed136;
-   border: 1px solid #fed136;
-   border-radius: 3px;
-   font-family: "Montserrat-Bold", Arial, sans-serif;
-   color: #fff;
-   text-transform: uppercase;
-   font-size: 14px;
-   cursor: pointer;
-   margin-bottom: 110px;
+form [type="submit"] {
+  display: block;
+  margin: 0 auto;
+  padding: 20px 46px;
+  background-color: #fed136;
+  border: 1px solid #fed136;
+  border-radius: 3px;
+  font-family: "Montserrat-Bold", Arial, sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
 }
 
 textarea {
-    display: block;
-    padding: 18px 16px;
-    border: 1px solid #a4a4a4;
-    border-radius: 3px;
-    text-decoration: none;
+  display: block;
+  padding: 18px 16px;
+  border: 1px solid #a4a4a4;
+  border-radius: 3px;
+  text-decoration: none;
+  width: 420px;
 }
 
-#inputs-required:valid {
-    outline: 2px solid green;
+input::placeholder,
+textarea::placeholder {
+  text-transform: uppercase;
+  font-family: "Montserrat-Bold", Arial, sans-serif;
+  color: #bbbbbb;
+  font-size: 14px;
 }
 
-#inputs-required:invalid {
-    outline: 2px solid red;
+.inputs-required:valid {
+  outline: 2px solid green;
+}
+
+.inputs-required:invalid {
+  outline: 2px solid red;
 }
