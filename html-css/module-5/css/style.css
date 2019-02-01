@@ -68,54 +68,31 @@ li {
 header {
     background: url(../img/Background.jpg)  center center;
     background-size: cover;
-    z-index: -2;
-}
-
-.shadow {
-    position: relative;
-}
-
-.slider-inner::after {
-    content: '';
-    position: absolute;
-    background: rgba(0, 0, 0, 0.52);
-    width: 100vw;
-    height: 600px;
-    top: 0;
-    right: 0;
-    z-index: 0;
 }
 
 .slider {
-    padding: 200px 0 265px;
     position: relative;
-    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.52);
+    width: 100%;
+    height: 600px;  
 }
 
-.slider-text {
-    margin: auto 0;
+.slider-title,.slider-title-secondary {
+    margin: 0;
+    position: absolute;
+    color: #fff;
+    text-transform: uppercase;
+    
 }
 
 .slider-title {
-    margin: 0;
-    padding-left: 50px;
-    display: flex;
-    flex-direction: column;
-}
-
-.slider-title-main,.slider-title-secondary {
-    color: #fff;
-    padding: 0 130px ;
-    display: block;
-    text-transform: uppercase;
-}
-
-.slider-title-main {
     font-family: "Roboto-Black", Arial, sans-serif;
     font-size: 60px;
     line-height: 82px;
-    font-weight: 100;
     letter-spacing: -1px;
+    top: 33%;
+    left: 25%;
+    transform: translate(6px, 2px);
 }
 
 .slider-title-secondary {
@@ -123,6 +100,9 @@ header {
     font-size: 24px;
     line-height: 54px;
     font-weight: 100;
+    top: 47%;
+    left: 25%;
+    transform: translateX(6px);
 }
 
  .slider-btn {
@@ -138,31 +118,32 @@ header {
     background: rgba(28, 188, 156, 1);
 }
 
-.slider-btn-prev {
+.slider-btn-prev,.slider-btn-next  {
     top: 38%;
+}
+.slider-btn-prev {
+    left: 13%;
+    transform: translateX(4px); 
 }
 
 .slider-btn-next {
-    top: 38%;
-    right: 0;
+    right: 13%;
+    transform: translateX(-4px);
 }
 
-.slider-btn::before {
+.slider-btn::after {
     content: '';
     position: absolute;
     width: 22px;
-    height: 38px;
-    top: 50%;
-    left: 50%;
-    opacity: 1;
+        height: 38px;
 }
 
-.slider-btn-prev::before {
+.slider-btn-prev::after {
     background: url(../img/icons/btn-1.png);
     transform: translate(-55%, -50%);
 }
 
-.slider-btn-next::before {
+.slider-btn-next::after {
     background: url(../img/icons/btn-2.png);
     transform: translate(-45%, -50%);
 } 
@@ -174,7 +155,7 @@ main {
     }
 
 section {
-    padding-top: 100px;
+    padding: 100px 0 100px 0;
     margin: 0 auto;
 }
 
@@ -198,10 +179,6 @@ section {
     border-bottom: 7px solid #1abc9c;
     transform: translate(110px, 78px)
   } 
-
-.product-card-level {
-    padding-bottom: 100px;
-}
 
   .product-card-box {
     width: 255px;
@@ -266,36 +243,30 @@ section {
   .product-hover-submenu-object {
     position: absolute;
     border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0);
+    padding: 6px 8px;
+    top: 25%;
+    cursor: pointer;
   }
   
-  .product-hover-submenu-hearth, .product-hover-submenu-clock  {
-    top: 25%;
-    padding: 7px 7px;
-  }
-
   .product-hover-submenu-hearth {
     left: 15%;
   }
   
   .product-hover-submenu-arrows {
-    top: 25%;
     left: 40%;
-    padding: 7px 7px;
-    border: 1px solid #fff;
   }
 
   .product-hover-submenu-clock {
-    left: 64%;
+    left: 65%;
   }
 
   .product-hover-submenu-basket {
     top: 46%;
     left: 15%;
-    width: 153px;
+    width: 168px;
     background-color:#323232;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px 0 10px 8px;
+    padding: 8px 0 8px 12px;
   }
 
 .icon-cart {
@@ -304,17 +275,13 @@ section {
 
 
   .product-hover-submenu-text {
+      margin: 0;
     text-transform: uppercase;
     font-family: "OpenSans-Regular", Arial, sans-serif;
     font-size: 14px;
     line-height: 32px;
     color: #fff;
     letter-spacing: -1px;
-  }
-  
-  .product-hover-submenu-image {
-      float: left;
-      padding-left: 12px;
   }
 
   .product-card-box:hover .product-hover-menu {
@@ -328,11 +295,12 @@ section {
 
   footer {
       background-color: #323232;
+      
+      padding: 32px 0;
   }
 
   .footer__text {
       margin: 0;
-      padding: 32px 0;
       color: #fefefe;
       font-family: "OpenSans-Regular", Arial, sans-serif;
       font-size: 16px;
@@ -342,5 +310,4 @@ section {
 
  .author {
       color: #46bfa9;
-      text-decoration: none;
   } 
