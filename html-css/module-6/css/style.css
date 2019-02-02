@@ -69,6 +69,10 @@ li {
   transform: scaleX(1);
 }
 
+.services {
+  padding-bottom: 90px;
+}
+
 .under-headline {
   margin: 0 0 18px 0;
   text-align: center;
@@ -103,17 +107,51 @@ li {
   justify-content: space-around;
   flex-wrap: wrap;
   align-content: space-between;
-  height: 260px;
-  margin-bottom: 90px;
+  min-height: 260px;
 }
 
 .services-categories-box {
-  display: flex;
   width: 330px;
 }
 
-.services-categories-icon {
-  margin-right: 30px;
+.services-categories-box {
+  position: relative;
+}
+
+.services-categories-textbox {
+  padding-left: 60px;
+}
+
+.services-categories-textbox::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 32px;
+left: 0;
+}
+
+.services-categories-textbox-alarm::before {
+  background: url('../img/icon/ALARM.png');
+}
+
+.services-categories-textbox-linegraph::before {
+  background: url('../img/icon/LINE-GRAPH.png');
+}
+
+.services-categories-textbox-comp::before {
+  background: url('../img/icon/COMPUTER.png');
+}
+
+.services-categories-textbox-book::before {
+  background: url('../img/icon/BOOK.png');
+}
+
+.services-categories-textbox-home::before {
+  background: url('../img/icon/HOME.png');
+}
+
+.services-categories-textbox-image::before {
+  background: url('../img/icon/IMAGE.png');
 }
 
 .services-categories-headline {
@@ -133,12 +171,8 @@ li {
   color: #999999;
 }
 
-.services-categories-row:first-of-type {
-  margin-bottom: 100px;
-}
-
-.services-categories-row:last-of-type {
-  margin-bottom: 90px;
+.team {
+  padding-bottom: 80px;
 }
 
 .headline_second::before {
@@ -163,7 +197,6 @@ li {
 .team-row {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 80px;
 }
 
 .team-box {
@@ -193,17 +226,12 @@ li {
 
 .team-back-menu {
   display: none;
-}
-
-.team-back-submenu {
-  display: flex;
   position: absolute;
   width: 224px;
   height: 56px;
   transform: translate(-112px, -28px);
   top: 50%;
   left: 50%;
-  opacity: 1;
 }
 
 .team-back-links {
@@ -232,7 +260,7 @@ li {
 }
 
 .team-box:hover .team-back-menu {
-  display: block;
+  display: flex;
 }
 
 .team-box-name,
@@ -260,12 +288,15 @@ li {
 footer {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-top: 1px solid #f6f6f6;
+  padding: 10px 0;
+
 }
 
 .footer-text {
+  margin: 0;
   font-family: "Montserrat-Regular", Arial, sans-serif;
-  margin: 25px 0;
   font-size: 14px;
 }
 
@@ -275,7 +306,6 @@ footer {
 }
 
 .footer-input {
-  margin: 10px 0;
   font-size: 0;
 }
 
