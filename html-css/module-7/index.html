@@ -80,10 +80,11 @@
           <form class="form" action="#" method="get">
             <div class="form-row">
             <div class="form-1">
-            <input required class="text-style inputs-required" type="text" name="Name"  placeholder="your name*" />
+            <input required class="text-style inputs-required"  type="text" name="Name" minlength="2" maxlength="60" placeholder="your name*" />
             <input required
             class="text-style inputs-required"
-              type="email"
+              minlength="2"
+            type="email"
               name="Email"
               placeholder="your e-mail*"
             />
@@ -91,6 +92,8 @@
           </div>
             <textarea
             required
+            minlength="5"
+            maxlength="150"
             class="text-area-position inputs-required"
               name="Message"
               placeholder="yours message*"

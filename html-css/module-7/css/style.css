@@ -196,10 +196,10 @@ textarea::placeholder {
   font-size: 14px;
 }
 
-.inputs-required:focus:valid {
+.inputs-required:valid {
   outline: 2px solid green;
 }
 
-.inputs-required:focus:invalid {
+.inputs-required:invalid {
   outline: 2px solid red;
 }
