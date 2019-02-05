@@ -8,8 +8,10 @@ body {
 }
 
 header {
+  margin: 0 auto;
   padding: 20px 0 138px 0;
-  background: url("../img/mobile_bacgrd-img.png") center center;
+  width: 100%;
+  background: url("../img/desktop_bacgrd-img.png") center center;
   background-size: cover;
 }
 
@@ -206,15 +208,14 @@ main {
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 670px) {
   .container {
-    width: 768px;
+
+    width: 670px;
   }
 
   header {
     padding: 38px 0 234px 0;
-    background: url("../img/tablet_bacgrd-img.png") center center;
-    background-size: cover;
   }
 
   nav {
@@ -307,13 +308,9 @@ main {
 
 @media (min-width: 1024px) {
   .container {
-    width: 1440px;
+    width: 940px;
   }
 
-  header {
-    background: url("../img/desktop_bacgrd-img.png") center center;
-    background-size: cover;
-  }
 
   nav {
     width: 940px;

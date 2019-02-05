@@ -21,40 +21,31 @@
   
   .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 320px) {
     .container {
-      max-width: 540px;
+      width: 320px;
     }
   }
   
   @media (min-width: 768px) {
     .container {
-      max-width: 720px;
+      width: 768px;
     }
   }
   
-  @media (min-width: 992px) {
-    .container {
-      max-width: 960px;
-    }
-  }
   
-  @media (min-width: 1200px) {
+  @media (min-width: 1024px) {
     .container {
-      max-width: 1140px;
+      width: 942px;
     }
   }
   
   .container-fluid {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
   }
@@ -88,8 +79,8 @@
     position: relative;
     width: 100%;
     min-height: 1px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding-right: 0;
+    padding-left: 0;
   }
   
   .col {
@@ -298,7 +289,7 @@
     margin-left: 91.666667%;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 320px) {
     .col-sm {
       -ms-flex-preferred-size: 0;
       flex-basis: 0;
@@ -642,7 +633,7 @@
     }
   }
   
-  @media (min-width: 992px) {
+  @media (min-width: 940px) {
     .col-lg {
       -ms-flex-preferred-size: 0;
       flex-basis: 0;
@@ -1024,7 +1015,7 @@
     display: inline-flex !important;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 320px) {
     .d-sm-none {
       display: none !important;
     }
@@ -1088,7 +1079,7 @@
     }
   }
   
-  @media (min-width: 992px) {
+  @media (min-width: '1024px') {
     .d-lg-none {
       display: none !important;
     }
@@ -1354,7 +1345,7 @@
     align-self: stretch !important;
   }
   
-  @media (min-width: 576px) {
+  @media (min-width: 320px) {
     .flex-sm-row {
       -ms-flex-direction: row !important;
       flex-direction: row !important;
@@ -1632,7 +1623,7 @@
     }
   }
   
-  @media (min-width: 992px) {
+  @media (min-width: 1024px) {
     .flex-lg-row {
       -ms-flex-direction: row !important;
       flex-direction: row !important;
