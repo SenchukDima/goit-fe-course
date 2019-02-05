@@ -192,6 +192,8 @@ main {
 }
 
 .partners-bio {
+  
+  padding: 0 2px 0 2px;
   font-family: "Roboto-300", Arial, sans-serif;
   color: #666666;
 }
@@ -304,6 +306,11 @@ main {
   .partners-box-4 {
     order: 4;
   }
+
+  .partners-bio {
+    padding: 0;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -352,4 +359,9 @@ main {
   .partners-box:last-of-type {
     margin-right: 0;
   }
+
+  .partners-bio {
+    padding: 0 2px 0 2px;
+  }
+
 }
