@@ -161,6 +161,7 @@ ul {
   .partners-bio {
     font-family: "Roboto-300", Arial, sans-serif;
     color: #666666;
+    padding: 0 2px 0 2px;
   }
   
   .partners-search {
@@ -243,8 +244,9 @@ ul {
         margin-bottom: 56px;
     }
   
-    .partners-box-1, .partners-box-2 {
-        margin-right: 40px;
+
+    .partners-bio {
+      padding: 0 20px 0 20px;
     }
   
     .partners-search {
@@ -254,7 +256,7 @@ ul {
   }
 
 
-@media (min-width: 1024px) {
+@media (min-width: 942px) {
  
     header {
       padding: 38px 0 234px 0;
@@ -281,7 +283,7 @@ main {
 
   .partners-box {
     width: 220px;
-    margin-right: 20px;
+    margin-right: 0;
     margin-bottom: 0;
   }
 
@@ -292,5 +294,9 @@ main {
   .partners-box:last-of-type {
     margin-right: 0;
   }
-}
+
+  .partners-bio {
+    padding: 0 10px 0 10px;
+  }
+
 }

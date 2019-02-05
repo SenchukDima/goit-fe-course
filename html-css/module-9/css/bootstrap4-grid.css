@@ -38,7 +38,7 @@
   }
   
   
-  @media (min-width: 1024px) {
+  @media (min-width: 942px) {
     .container {
       width: 942px;
     }
@@ -633,7 +633,7 @@
     }
   }
   
-  @media (min-width: 940px) {
+  @media (min-width: 942px) {
     .col-lg {
       -ms-flex-preferred-size: 0;
       flex-basis: 0;
