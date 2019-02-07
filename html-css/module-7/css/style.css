@@ -7,6 +7,7 @@ body {
   width: 940px;
 }
 
+
 header {
   padding: 38px 0 100px 0;
 }
@@ -15,7 +16,7 @@ nav {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .head-emblem {
@@ -33,7 +34,7 @@ ul {
   padding: 0;
   text-align: center;
   justify-content: space-between;
-  width: 480px;
+  width: 50%;
 }
 
 li {
@@ -49,7 +50,7 @@ li {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
-  line-height: 41px;
+  line-height: 21px;
   font-weight: 100;
   color: #222222;
   font-weight: 600;
@@ -57,6 +58,10 @@ li {
 
 .navigation-link:hover {
   color: #feda5b;
+}
+
+section:first-of-type {
+  padding-bottom: 120px;
 }
 
 .headline,
@@ -71,7 +76,8 @@ li {
   text-transform: uppercase;
   font-family: "Montserrat-Bold", Arial, sans-serif;
   font-size: 40px;
-  line-height: 76px;
+  line-height: 48px;
+  margin-bottom: 8px;
 }
 
 .services-headline {
@@ -92,43 +98,80 @@ li {
 .services-row {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 120px;
 }
 
 .services-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 290px;
+  width: 30%;
+  position: relative;
+
 }
+
+.services-box-basket::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 74px;
+  height: 74px;
+  background: url('../img/icon/Icon-Basket.png');
+  transform: translateX(37px);
+}
+
+.services-box-laptop::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 74px;
+  height: 74px;
+  background: url('../img/icon/Icon-Laptop.png');
+  transform: translateX(37px);
+}
+
+.services-box-locked::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 50%;
+  width: 74px;
+  height: 74px;
+  background: url('../img/icon/Icon-Locked.png');
+  transform: translateX(37px);
+}
+
 
 .services-icon {
   margin-bottom: 14px;
 }
 
 .services-box-headline {
-  margin: 0;
+  position: relative;
+  padding-top: 90px;
+  margin: 0 0 8px 0;
+  text-align: center;
   font-family: "Montserrat-Bold", Arial, sans-serif;
   font-size: 18px;
-  line-height: 38px;
+  line-height: 22px;
   color: #222222;
 }
+
 
 .services-text {
   font-family: "RobotoSlab-Regular", Arial, sans-serif;
   font-size: 14px;
   line-height: 22px;
   color: #777777;
+  letter-spacing: -0.2px;
 }
 
 .black {
+  padding: 86px 0 110px 0;
   background: url(../img/Map_Image.png) center center no-repeat;
   background-color: #222222;
 }
 
 .contacts-headline {
   color: #ffffff;
-  padding-top: 86px;
 }
 
 .contacts-headline-text {
@@ -136,9 +179,6 @@ li {
   margin-bottom: 77px;
 }
 
-.form {
-  padding-bottom: 110px;
-}
 
 .form-1 {
   width: 455px;
