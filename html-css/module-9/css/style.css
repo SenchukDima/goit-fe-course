@@ -3,45 +3,39 @@ body {
   }
   
   header {
-    margin: 0 auto;
-    width: 100%;
     padding: 20px 0 138px 0;
     background: url("../img/desktop_bacgrd-img.png") center center;
     background-size: cover;
   }
 
-ul {
-  padding: 0;
-    margin-bottom: 116px;
+ nav {
+   width: 320px;
+   margin-bottom: 40px;
+ }
+
+.navigation-buttons {
+  margin-bottom: 110px;
 }
 
-  li {
-    margin-right: 6px;
-    list-style: none;
-  }
-
-  li:last-of-type {
-    margin-right: 0;
-  }
-
-  .navigation-link {
-    text-decoration: none;
+  .navigation-btn {
     font-family: "Montserrat-Bold", Arial, sans-serif;
     font-size: 14px;
     line-height: 16px;
     color: #fff;
     padding: 8px 14px;
     border: 2px solid rgba(0, 0, 0, 0);
+    background: none;
     cursor: pointer;
   }
   
-  .navigation-link:hover {
+  .navigation-btn:hover {
     border: 2px solid #ffffff;
     border-radius: 35px;
   }
   
 .head-emblem {
-  margin: 0 0 34px 0;
+  text-decoration: none;
+  margin: 0;
   text-align: center;
   font-family: "Montserrat-Bold", Arial, sans-serif;
   font-size: 20px;
@@ -198,9 +192,6 @@ ul {
 
     nav {
       margin-bottom: 142px;
-    }
-    ul {
-      margin: 0;
     }
 
 .head-emblem {
