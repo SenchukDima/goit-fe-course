@@ -3,20 +3,6 @@
     src: url("../fonts/kaushan-script-v7-latin-regular.woff") format("woff"),
     url("../fonts/kaushan-script-v7-latin-regular.woff2") format("woff2");
 }
-@font-face {
-    font-family: "Montserrat-Bold";
-    src: url("../fonts/Montserrat-Bold.woff") format("woff"),
-    url("../fonts/Montserrat-Bold.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: "Montserrat-Regular";
-    src: url("../fonts/Montserrat-Regular.woff") format("woff"),
-    url("../fonts/Montserrat-Regular.woff2") format("woff2");
-    font-style: normal;
-    font-weight: normal;
-}
 
 @font-face {
     font-family: "RobotoSlab-Regular";
@@ -38,6 +24,21 @@
     font-family: "Wisdom";
     src: url("../fonts/WisdomScript-AI.woff") format("woff"),
     url("../fonts/WisdomScript-AI.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/montserrat-700.woff") format("woff"),
+    url("../fonts/Montserrat-700.woff2") format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/montserrat-400.woff") format("woff"),
+    url("../fonts/Montserrat-400.woff2") format("woff2");
     font-style: normal;
     font-weight: normal;
 }
