@@ -40,7 +40,7 @@
   }
   
   
-  @media (min-width: 942px) {
+  @media (min-width: 1024px) {
     .container {
       width: 942px;
     }
@@ -57,8 +57,8 @@
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
+    margin-right: 0 ;
+    margin-left: -0;
   }
   
   .no-gutters {
@@ -635,7 +635,7 @@
     }
   }
   
-  @media (min-width: 942px) {
+  @media (min-width: 1024px) {
     .col-lg {
       -ms-flex-preferred-size: 0;
       flex-basis: 0;
@@ -1081,7 +1081,7 @@
     }
   }
   
-  @media (min-width: '1024px') {
+  @media (min-width: 1024px) {
     .d-lg-none {
       display: none !important;
     }
