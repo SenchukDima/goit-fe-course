@@ -9,14 +9,13 @@ header {
 }
 
 nav {
+  margin: 0 auto;
   margin-bottom: 40px;
 }
 
-.navigation-buttons {
-  margin-bottom: 110px;
-}
 
 .navigation-btn {
+  margin-bottom: 110px;
   font-family: "Montserrat-Bold", Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
@@ -183,11 +182,10 @@ main {
   }
 
   nav {
-    width: 670px;
     margin-bottom: 142px;
   }
 
-  .navigation-buttons {
+  .navigation-btn {
     margin: 0;
   }
 
