@@ -6,15 +6,23 @@ let total = 0;
 
 do {
   userInput = prompt('Введите число:');
+  
   let num = Number(userInput);
   Number.isNaN(num);
-  if(Number.isNaN(num) === true) {
+  if(Number.isNaN(num) === false) {
+    numbers.push(num);
+  } else if(num === null){
+    break;
+  }
+  else {
     alert('Было введено не число, попробуйте еще раз');
-  } else {
-  numbers.push(num);}
+    
+  }
   
-} while (userInput !== null);
-  numbers.pop();
+
+}
+ while (true);
+  // numbers.pop();
 
 
 
