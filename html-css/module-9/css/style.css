@@ -15,7 +15,7 @@ nav {
 
 
 .navigation-btn {
-  margin-bottom: 110px;
+  margin-bottom: 60px;
   font-family: "Montserrat-Bold", Arial, sans-serif;
   font-size: 14px;
   line-height: 16px;
@@ -25,6 +25,7 @@ nav {
   background: none;
   cursor: pointer;
   outline: none;
+  width: 55%;
 }
 
 .navigation-btn:hover {
