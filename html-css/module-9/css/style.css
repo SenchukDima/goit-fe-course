@@ -247,6 +247,11 @@ main {
   header {
     padding: 38px 0 234px 0;
   }
+  
+  nav {
+    width: 940px;
+    margin: auto;
+  }
 
   .information-block-text {
     font-size: 24px;
